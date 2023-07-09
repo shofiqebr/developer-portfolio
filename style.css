@@ -6,19 +6,23 @@
     text-decoration: none;
     font-family: Open Sans;
 }
-
 .header{
-    background-color: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position:bottom right, bottom left;
+}
+.upper-header{
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .logo{
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 800;
+    padding-left: 100px;
    
 }
 .r{
@@ -28,10 +32,31 @@
 .nav{
     display: flex;
 }
-.nav>li{
+.nav li{
     color: #474747; 
     font-size: 20px;
     font-weight: 400;
     margin-right: 87px;
 
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin-right: 87px;
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+.under-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.under-header-img>img{
+   width: 400px;
 }
