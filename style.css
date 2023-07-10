@@ -21,8 +21,7 @@
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    padding-left: 100px;
-   
+    padding: 23px 189px;
 }
 .r{
     color:#FD6E0A;
@@ -38,17 +37,30 @@
     margin-right: 87px;
 
 }
+.underheader-btn{
+
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    width: 102px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
 
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    margin-right: 87px;
     height: 35px;
-    width: 100px;
+    width: 120px;
     font-size: 14px;
     color: white;
     font-weight: 800;
     border: none;
+}
+nav>button{
+    margin-right: 100px;
 }
 .under-header{
     display: flex;
@@ -58,7 +70,12 @@
 
 }
 .under-header-img>img{
-   width: 400px;
+    width: 427px;
+    height: 668px;
+    padding-left: 50px;
+}
+.under-header-description{
+    padding-left: 10px;
 }
 .hello{
     color: #474747;
